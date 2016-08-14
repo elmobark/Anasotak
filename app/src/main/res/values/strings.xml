@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">انا صوتك</string>
+    <string name="TestL">اختبر نفسك</string>
+    <string name="mainA">البداية</string>
+    <string name="rat">اكتب الحرف الذي تشير الية الصورة</string>
+
+    <string name="nofy_notification_title_template">انا صوتك: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="nofy_notification_placeholder_text_template">التطبيق قيد العمل
+    </string>
+<string name="ti">اختار تصمميك</string>
+    <string name="action_share">تحديث</string>
+    <string name="action_reply">فتح</string>
+</resources>
