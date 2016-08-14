@@ -81,9 +81,9 @@ public class CharAR {
     }
     public static String[] names={"","","","","","","","","","","","","","","","","","","","","","",
             "","","","","","",""};
-   /* public static int[] gf={R.raw.Ga,R.raw.Gb,R.raw.Gc,R.raw.Gd,R.raw.Ge,R.raw.Gf,R.raw.Gg,R.raw.Gh,R.raw.Gi,
+   public static int[] gf={R.raw.Ga,R.raw.Gb,R.raw.Gc,R.raw.Gd,R.raw.Ge,R.raw.Gf,R.raw.Gg,R.raw.Gh,R.raw.Gi,
             R.raw.Gj,R.raw.Gk,R.raw.Gl,R.raw.Gm,R.raw.Gn,R.raw.Go,R.raw.Gp,R.raw.Gq,R.raw.Gr,R.raw.Gs,R.raw.Gt,
-            R.raw.Gu,R.raw.Gv,R.raw.Gw,R.raw.Gx,R.raw.Gy,R.raw.Gz,R.raw.Gz1,R.raw.Gz2};*/
+            R.raw.Gu,R.raw.Gv,R.raw.Gw,R.raw.Gx,R.raw.Gy,R.raw.Gz,R.raw.Gz1,R.raw.Gz2};
 }
 
 
