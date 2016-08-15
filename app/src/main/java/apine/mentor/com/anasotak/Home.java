@@ -56,17 +56,17 @@ public class Home extends AppCompatActivity implements ConnectivityReceiver.Conn
             }
         });
     }
-
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.selector, menu);
-        return false;
+        return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_cart:
+        int id = item.getItemId();
+        if (id == R.id.action_cart) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(Home.this);
                 View v = View.inflate(Home.this, R.layout.desginsel, null);
                 builder.setView(v)
@@ -79,9 +79,9 @@ public class Home extends AppCompatActivity implements ConnectivityReceiver.Conn
                             }
                         });
 
-                break;
+
         }
-        return true;
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

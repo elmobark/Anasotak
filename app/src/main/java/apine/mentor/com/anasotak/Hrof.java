@@ -5,11 +5,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import apine.mentor.com.anasotak.Lit.CharAR;
 import apine.mentor.com.anasotak.Lit.GifView;
+import apine.mentor.com.anasotak.Lit.style;
 import apine.mentor.com.anasotak.Lit.work;
 import pl.droidsonroids.gif.GifImageView;
 
@@ -19,7 +21,9 @@ public class Hrof extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hrof);
-
+        style backg =new style();
+final RelativeLayout ly=(RelativeLayout)findViewById(R.id.ly);
+        ly.setBackgroundResource(backg.getBg1());
 final pl.droidsonroids.gif.GifImageView gifl;
        final
         ImageButton next ,back;
