@@ -9,7 +9,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import apine.mentor.com.anasotak.Lit.CharAR;
+import apine.mentor.com.anasotak.Lit.GifView;
 import apine.mentor.com.anasotak.Lit.work;
+import pl.droidsonroids.gif.GifImageView;
 
 public class Hrof extends AppCompatActivity {
 
@@ -18,8 +20,11 @@ public class Hrof extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hrof);
 
+final pl.droidsonroids.gif.GifImageView gifl;
        final
         ImageButton next ,back;
+        gifl= (GifImageView) findViewById(R.id.gifl);
+
         next=(ImageButton) findViewById(R.id.next);
         back=(ImageButton) findViewById(R.id.back);
        final ImageView hand , png;
@@ -29,6 +34,7 @@ public class Hrof extends AppCompatActivity {
         h.setText(CharAR.abjde[work.k]);
         png.setImageResource(CharAR.ani[work.k]);
         hand.setImageResource(CharAR.han[work.k]);
+        gifl.setImageResource(CharAR.gf[work.k]);
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +46,7 @@ public class Hrof extends AppCompatActivity {
                     h.setText(CharAR.abjde[work.k]);
                     png.setImageResource(CharAR.ani[work.k]);
                     hand.setImageResource(CharAR.han[work.k]);
+                    gifl.setImageResource(CharAR.gf[work.k]);
                 }
                 }
         });
@@ -53,6 +60,8 @@ public class Hrof extends AppCompatActivity {
                     h.setText(CharAR.abjde[work.k]);
                     png.setImageResource(CharAR.ani[work.k]);
                     hand.setImageResource(CharAR.han[work.k]);
+                    gifl.setImageResource(CharAR.gf[work.k]);
+
                 }
                 }
         });

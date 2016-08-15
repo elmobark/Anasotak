@@ -8,8 +8,8 @@ android {
         applicationId "apine.mentor.com.anasotak"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 1
-        versionName "4.72"
+        versionCode 13
+        versionName "4.77"
     }
     buildTypes {
         release {
@@ -25,4 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
     compile 'com.android.support:support-v4:23.4.0'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.17'
 }

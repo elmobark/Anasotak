@@ -5,16 +5,15 @@
     android:layout_height="match_parent"
 
     tools:context="apine.mentor.com.anasotak.Home">
-    <include layout="@layout/to"
-      android:id="@+id/toin"></include>
 
     <LinearLayout
+        android:id="@+id/ln"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_below="@+id/toin">
+        android:orientation="horizontal">
 
         <FrameLayout
+
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"

@@ -9,7 +9,6 @@ import android.view.View;
 
 import java.io.InputStream;
 
-import apine.mentor.com.anasotak.R;
 
 /**
  * Created by 99 on 8/14/2016.
@@ -21,7 +20,11 @@ public class GifView extends View {
     private int movieWidth, movieHeight;
     private long movieDuration;
     private long movieStart;
+    public int draw;
 
+    public void setDraw(int draw){
+        this.draw=draw;
+    }
     public GifView(Context context) {
         super(context);
         init(context);
@@ -40,7 +43,7 @@ public class GifView extends View {
 
     private void init(Context context) {
         setFocusable(true);
-        gifInputStream = context.getResources().openRawResource(R.drawable.ani_bart);
+        gifInputStream = context.getResources().openRawResource(draw);
 
         gifMovie = Movie.decodeStream(gifInputStream);
         movieWidth = gifMovie.width();

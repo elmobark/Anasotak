@@ -81,9 +81,9 @@ public class CharAR {
     }
     public static String[] names={"","","","","","","","","","","","","","","","","","","","","","",
             "","","","","","",""};
-   public static int[] gf={R.raw.Ga,R.raw.Gb,R.raw.Gc,R.raw.Gd,R.raw.Ge,R.raw.Gf,R.raw.Gg,R.raw.Gh,R.raw.Gi,
-            R.raw.Gj,R.raw.Gk,R.raw.Gl,R.raw.Gm,R.raw.Gn,R.raw.Go,R.raw.Gp,R.raw.Gq,R.raw.Gr,R.raw.Gs,R.raw.Gt,
-            R.raw.Gu,R.raw.Gv,R.raw.Gw,R.raw.Gx,R.raw.Gy,R.raw.Gz,R.raw.Gz1,R.raw.Gz2};
+   public static int[] gf={R.drawable.ga,R.drawable.gb,R.drawable.gc,R.drawable.gd,R.drawable.ge,R.drawable.gf,R.drawable.gg,R.drawable.gh,R.drawable.gi,
+            R.drawable.gj,R.drawable.gk,R.drawable.gl,R.drawable.gm,R.drawable.gn,R.drawable.go,R.drawable.gp,R.drawable.gq,R.drawable.gr,R.drawable.gs,R.drawable.gt,
+            R.drawable.gu,R.drawable.gv,R.drawable.gw,R.drawable.gx,R.drawable.gy,R.drawable.gz,R.drawable.gz1,R.drawable.gz2};
 }
 
 

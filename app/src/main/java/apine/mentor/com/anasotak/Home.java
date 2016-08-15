@@ -31,18 +31,8 @@ public class Home extends AppCompatActivity implements ConnectivityReceiver.Conn
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Toolbar tb = (Toolbar) findViewById(R.id.toin);
-        setSupportActionBar(tb);
-        getSupportActionBar().setIcon(R.mipmap.logo);
-        ImageView icon = new ImageView(this);
-        FloatingActionButton actionButton = new FloatingActionButton.Builder(this)
-                .setContentView(icon)
-                .build();
-        SubActionButton.Builder itemBuilder = new SubActionButton.Builder(this);
-// repeat many times:
-        ImageView itemIcon = new ImageView(this);
-        itemIcon.setImageResource(R.drawable.setw);
-        SubActionButton button1 = itemBuilder.setContentView(itemIcon).build();
+
+
         setContentView(R.layout.activity_home);
         b1 = (Button) findViewById(R.id.button);
         b2 = (Button) findViewById(R.id.button2);
