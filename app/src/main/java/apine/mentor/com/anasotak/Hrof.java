@@ -35,6 +35,8 @@ final pl.droidsonroids.gif.GifImageView gifl;
         png=(ImageView) findViewById(R.id.png);
         hand=(ImageView) findViewById(R.id.hand);
        final TextView h = (TextView) findViewById(R.id.h);
+        final TextView names  =(TextView)findViewById(R.id.names);
+        names.setText(CharAR.names[work.k]);
         h.setText(CharAR.abjde[work.k]);
         png.setImageResource(CharAR.ani[work.k]);
         hand.setImageResource(CharAR.han[work.k]);
@@ -48,6 +50,7 @@ final pl.droidsonroids.gif.GifImageView gifl;
                 }else {
                     work.k++;
                     h.setText(CharAR.abjde[work.k]);
+                    names.setText(CharAR.names[work.k]);
                     png.setImageResource(CharAR.ani[work.k]);
                     hand.setImageResource(CharAR.han[work.k]);
                     gifl.setImageResource(CharAR.gf[work.k]);
@@ -65,6 +68,7 @@ final pl.droidsonroids.gif.GifImageView gifl;
                     png.setImageResource(CharAR.ani[work.k]);
                     hand.setImageResource(CharAR.han[work.k]);
                     gifl.setImageResource(CharAR.gf[work.k]);
+                    names.setText(CharAR.names[work.k]);
 
                 }
                 }

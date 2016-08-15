@@ -22,7 +22,7 @@ public class style {
                 bg3= R.color.yes;
                 bg4= R.color.no;
                 break;
-            case 1:
+
         }
     }
 

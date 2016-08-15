@@ -79,8 +79,34 @@ public class CharAR {
         }
         return false;
     }
-    public static String[] names={"","","","","","","","","","","","","","","","","","","","","","",
-            "","","","","","",""};
+    public static String[] names={"ارنب",
+            "بطريق",
+            "تمساح",
+            "ثعبان",
+            "جمل",
+            "حرباء",
+            "خفاش",
+            "ديلفين",
+            "ذئب",
+            "راكون",
+            "زرافة",
+            "سمكة",
+            "شبل",
+            "صقر",
+            "ضفدع",
+            "طاؤوس",
+            "ظبي",
+            "عنكبوت",
+            "غراب",
+            "فراشة",
+            "قرد",
+            "كلب",
+            "لاما",
+            "ماعز",
+            "نمر",
+            "قطة",
+            "وحيد القرن",
+            "يمامة"};
    public static int[] gf={R.drawable.ga,R.drawable.gb,R.drawable.gc,R.drawable.gd,R.drawable.ge,R.drawable.gf,R.drawable.gg,R.drawable.gh,R.drawable.gi,
             R.drawable.gj,R.drawable.gk,R.drawable.gl,R.drawable.gm,R.drawable.gn,R.drawable.go,R.drawable.gp,R.drawable.gq,R.drawable.gr,R.drawable.gs,R.drawable.gt,
             R.drawable.gu,R.drawable.gv,R.drawable.gw,R.drawable.gx,R.drawable.gy,R.drawable.gz,R.drawable.gz1,R.drawable.gz2};
