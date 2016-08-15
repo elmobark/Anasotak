@@ -31,9 +31,12 @@ public class Home extends AppCompatActivity implements ConnectivityReceiver.Conn
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
         setContentView(R.layout.activity_home);
+        Toolbar to = (Toolbar) findViewById(R.id.to);
+        setSupportActionBar(to);
+        getSupportActionBar().setIcon(R.mipmap.logo);
+        getSupportActionBar().setSubtitle(R.string.subt);
+        getSupportActionBar().setTitle(R.string.app_name);
         b1 = (Button) findViewById(R.id.button);
         b2 = (Button) findViewById(R.id.button2);
         b1.setOnClickListener(new View.OnClickListener() {
