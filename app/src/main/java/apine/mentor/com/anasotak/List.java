@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import apine.mentor.com.anasotak.Lit.*;
@@ -22,9 +23,16 @@ ListView lv;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
+
         final CustomListAdapter adaptery =new CustomListAdapter(this,har,sor);
         lv=(ListView) findViewById(R.id.list);
         lv.setAdapter(adaptery);
+
+        style backg =new style();
+        final RelativeLayout ly=(RelativeLayout)findViewById(R.id.lsr);
+        backg.rant();
+        ly.setBackgroundResource(backg.getBg3());
+
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {

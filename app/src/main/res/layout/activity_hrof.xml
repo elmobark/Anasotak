@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:id="@+id/ly"
     tools:context="apine.mentor.com.anasotak.Hrof"
-    android:background="@drawable/wall2">
+    android:background="@drawable/wall6">
 
     <ImageButton
         android:layout_width="wrap_content"

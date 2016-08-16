@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="apine.mentor.com.anasotak.List"
-    android:background="@drawable/wall6">
+    android:background="@drawable/wall6"
+    android:id="@+id/lsr">
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"

@@ -5,6 +5,7 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -49,7 +50,7 @@ public class nofy {
 
         // This image is used as the notification's large icon (thumbnail).
         // TODO: Remove this if your notification has no relevant thumbnail.
-        final Bitmap picture = BitmapFactory.decodeResource(res, R.mipmap.ic_launcher);
+        final Bitmap picture = BitmapFactory.decodeResource(res, R.mipmap.logo);
 
 
         final String ticker = exampleString;
@@ -129,8 +130,7 @@ public class nofy {
                                 PendingIntent.FLAG_UPDATE_CURRENT))
                 .addAction(
                         R.drawable.ic_action_stat_reply,
-                        res.getString(R.string.action_reply),
-                        null)
+                        res.getString(R.string.action_reply), null)
 
                 // Automatically dismiss the notification when it is touched.
                 .setAutoCancel(true);

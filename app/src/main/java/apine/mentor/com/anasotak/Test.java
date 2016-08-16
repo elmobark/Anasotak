@@ -12,6 +12,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,6 +20,7 @@ import android.widget.Toast;
 import java.util.Random;
 
 import apine.mentor.com.anasotak.Lit.CharAR;
+import apine.mentor.com.anasotak.Lit.style;
 
 public class Test extends AppCompatActivity {
     private  EditText wx = null;
@@ -31,6 +33,13 @@ public class Test extends AppCompatActivity {
         setContentView(R.layout.activity_test);
         rx =(ImageView) findViewById(R.id.rx);
       wx=(EditText) findViewById(R.id.wx);
+
+        style backg =new style();
+        final RelativeLayout ly=(RelativeLayout)findViewById(R.id.tsr);
+        backg.rant();
+        ly.setBackgroundResource(backg.getBg2());
+
+
         final Button dx =(Button)findViewById(R.id.dx);
 
 

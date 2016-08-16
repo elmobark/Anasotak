@@ -23,6 +23,7 @@ public class Hrof extends AppCompatActivity {
         setContentView(R.layout.activity_hrof);
         style backg =new style();
 final RelativeLayout ly=(RelativeLayout)findViewById(R.id.ly);
+        backg.rant();
         ly.setBackgroundResource(backg.getBg1());
 final pl.droidsonroids.gif.GifImageView gifl;
        final
