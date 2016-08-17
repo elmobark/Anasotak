@@ -38,7 +38,7 @@ public class Home extends AppCompatActivity implements ConnectivityReceiver.Conn
         setContentView(R.layout.activity_home);
         Toolbar to = (Toolbar) findViewById(R.id.to);
         setSupportActionBar(to);
-        getSupportActionBar().setIcon(R.drawable.ToolBarICON);
+        getSupportActionBar().setIcon(R.drawable.tbi);
         getSupportActionBar().setSubtitle(R.string.subt);
         getSupportActionBar().setTitle(R.string.app_name);
         b1 = (Button) findViewById(R.id.button);
