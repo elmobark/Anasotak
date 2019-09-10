@@ -113,6 +113,6 @@ public class Home extends AppCompatActivity implements ConnectivityReceiver.Conn
 
     @Override
     public void onNetworkConnectionChanged(boolean isConnected) {
-
+Toast.makeText(Home.java,isConnected+"",Toast.LENGTH_LONG).show();
     }
 }
